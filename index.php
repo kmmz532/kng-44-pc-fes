@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', "On");
 define("ONE_OFF_MODE", true); // 1人1回限り
-define("OPEN_MODE", "end"); // "open", "close", "end"
+define("OPEN_MODE", "open"); // "open", "close", "end"
 define("ENABLE_RUBY", false); // ふりがな
 
 if (OPEN_MODE == "close") {
